@@ -14,8 +14,8 @@ namespace task04
             ad = Console.ReadLine();
             Console.WriteLine("Soyadiniz daxil edin:");
             soyad = Console.ReadLine();
-            Console.WriteLine("Salam " + ad +" " + soyad + " dostum,necesen?");
+            Console.WriteLine($"Salam {ad} {soyad} dostum,necesen?");
             Console.ReadLine();
         }
-    }
+    }   
 }
