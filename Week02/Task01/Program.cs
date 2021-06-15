@@ -17,10 +17,10 @@ namespace Task01
             public string Username { get; set; }
             public int Password { get; set; }
 
-            public Login(string _Username,int _Password)
+            public Login(string UsernameItem, int PasswordItem)
             {
-                this.Username = _Username;
-                this.Password = _Password;
+                this.Username = UsernameItem;
+                this.Password = PasswordItem;
             }
 
         }
