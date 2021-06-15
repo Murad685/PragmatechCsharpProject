@@ -17,15 +17,16 @@ namespace Task01
             public string Username { get; set; }
             public int Password { get; set; }
 
-            public Login(string Username,int Password)
+            public Login(string _Username,int _Password)
             {
-                this.Username = "muradorucow";
-                this.Password = 2000;
+                this.Username = _Username;
+                this.Password = _Password;
             }
+
         }
         static void Main(string[] args)
         {
-            Login userlogin = new Login("murad", 2000);
+            Login userlogin = new Login("muradorucow", 2000);
             string user;
             int password;
             Console.WriteLine("Enter USername:");
