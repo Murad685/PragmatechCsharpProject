@@ -14,6 +14,10 @@ namespace Task03
             {
                 Console.WriteLine("Tek ededdir!");
             }
+            else if(a == 0)
+            {
+                Console.WriteLine("Eded 0-dir!");
+            }
             else
             {
                 Console.WriteLine("Cut ededdir!");
