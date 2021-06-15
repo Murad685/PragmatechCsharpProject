@@ -15,9 +15,13 @@ namespace Task04
             {
                 Console.WriteLine("Eded menfidir!");
             }
-            else
+            else if (a >0)
             {
                 Console.WriteLine("Eded musbetdir!");
+            }
+            else
+            {
+                Console.WriteLine("Eded sifirdir!");
             }
         }
     }
