@@ -11,13 +11,14 @@ namespace Task06
             Evvelce girilen ad soyadin qabaqcadan goturulmush ad soyadla ust-uste dushub dushmediyini yoxlayin,
             daha sonra eger result true olarsa age-i yoxlayin 18den kicikdirse console "Sizin yashiniz uygun deyil cixardin".
             Boyuk olarsa uygundur cixardin.*/
+
         struct Person
         {
             public string Name { get; set; }
             public string Surname { get; set; }
             public byte Age { get; set; }
 
-            public Person(string username,string usersurname, byte userage)
+            public Person(string username, string usersurname, byte userage)
             {
                 this.Name = username;
                 this.Surname = usersurname;
@@ -26,29 +27,37 @@ namespace Task06
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Age");
-            Person person = new Person("Murad", "Orucov", Convert.ToByte(Console.ReadLine()));
-            string usrname;
-            string usrsurname;
-            if (person.Age >= 18)
+            
+            Console.WriteLine("Enter Username:");
+            string usrname = Console.ReadLine();
+            Console.WriteLine("Enter Usersurname");
+            string usrsurname = Console.ReadLine();
+            Console.WriteLine("Enter Age:");
+            byte userage = Convert.ToByte(Console.ReadLine());
+            Person person = new Person("Murad","Orucov",userage);
+
+            if (person.Name== usrname && person.Surname==usrsurname)
             {
-                Console.WriteLine("Sizin yasiniz uygundur. Enter Username:");
-                usrname = Console.ReadLine();
-                Console.WriteLine("Enter Usersurname");
-                usrsurname = Console.ReadLine();
-                if (person.Name == usrname && person.Surname == usrsurname)
+                if (userage < 18)
                 {
-                    Console.WriteLine("Welcome to Site");
+                    
+                    Console.WriteLine("Sizin yasiniz uygun deyil");
                 }
                 else
                 {
-                    Console.WriteLine("WRONG Username or Password");
+                    Console.WriteLine("Sizin yasiniz uygundur");
                 }
-            } 
+            }
+            else if (person.Name != usrname && person.Surname != usrsurname && userage < 18)
+            {
+                Console.WriteLine("WRONG Username, Password and Inappropriate age");
+            }
             else
             {
-                Console.WriteLine("Sizin yasiniz uygun deyil ");
+                Console.WriteLine("WRONG Username or Password");
             }
         }
+
+
     }
 }
