@@ -20,6 +20,7 @@ namespace Task02
             
             Random accidental = new Random();
             int i = accidental.Next(1,11);
+            Console.WriteLine(i);
             Console.WriteLine("1 ve 10 arasi eded daxil edin:");
             int j;
             int f = 1;
@@ -32,17 +33,13 @@ namespace Task02
                     Console.WriteLine($"Tebrikler siz duz tadpiniz.Proqramin fikrinde tutdugu reqem {i} idi.");
                     break;
                 }
-                else if ( i>j && j< 10 && j > 0)
+                else if ( i>j && j<= 10 && j > 0)
                 {
                     Console.WriteLine("Daxil etdiyiniz eded tutulan ededden kicikdir.");
                 }
-                else if ( i < j && j < 10 && j>0)
+                else if ( i < j && j <= 10 && j>0)
                 {
                     Console.WriteLine("Daxil etdiyiniz eded tutulan ededden Boyukdur.");
-                }
-                else if (f >=5)
-                {
-                    Console.WriteLine("Tessuf Sizin texmin haqqiniz bitmishdir!");
                 }
                 else 
                 {
@@ -50,7 +47,10 @@ namespace Task02
                 }
                 f++;
             } while (f<6);
-            
+            if (f > 5)
+            {
+                Console.WriteLine("Tessuf Sizin texmin haqqiniz bitmishdir!");
+            }
 
 
 
