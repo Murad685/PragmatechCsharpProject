@@ -12,6 +12,7 @@ namespace Task01
              * daxil edeceyimiz eded 0 olana qeder ishlesin ve nevaxt ki,
              * 0 daxil etdik o zaman evvel daxil etdiyimiz ededlerin cemini de ekrana cixarsin.
              */
+            Console.WriteLine("Eded daxil edin:");
             int i;
             int j=0;
             do
