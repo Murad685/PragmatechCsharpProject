@@ -20,7 +20,6 @@ namespace Task02
             
             Random accidental = new Random();
             int i = accidental.Next(1,11);
-            Console.WriteLine(i);
             Console.WriteLine("1 ve 10 arasi eded daxil edin:");
             int j;
             int f = 1;
