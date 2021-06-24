@@ -15,6 +15,7 @@ namespace Task04
              * Secilen addan evvelceden daxil edilen adlarin icinde nece dene olmasini tapin ve 
              * ekrana secilen adi ve nece dene olmasini cixardin.
              */
+
             //Ele bir program yazin ki,client-a bir eded daxil etmesini deyin
             Console.WriteLine("Bir eded daxil edin:");
             int eded = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +36,7 @@ namespace Task04
             //Daha sonra clientden hansi adi secmek istediyini sorushun
             Console.WriteLine("Hasi adi cekmek isteyirsiniz?");
             string ad = Console.ReadLine();
+
             //Secilen addan evvelceden daxil edilen adlarin icinde nece dene olmasini tapin ve
             int say = 0;
             foreach(var defaultad in myarray)
@@ -42,16 +44,13 @@ namespace Task04
 
                 if (defaultad == ad)
                 {
-                    say += 1;
-
-                    // ekrana secilen adi ve nece dene olmasini cixardin.
-                    Console.WriteLine($"Daxil etdiyniz ad siyahida {say} ededdir.");
-                }
-                
+                    say += 1;  
+                } 
 
             }
-            
-            
+            // ekrana secilen adi ve nece dene olmasini cixardin.
+            Console.WriteLine($"Daxil etdiyniz ad siyahida {say} ededdir.");
+
         }
     }
 }
