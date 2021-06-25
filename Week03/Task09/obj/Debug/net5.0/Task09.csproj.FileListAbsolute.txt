@@ -1,0 +1,16 @@
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\Task09.exe
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\Task09.deps.json
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\Task09.runtimeconfig.json
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\Task09.runtimeconfig.dev.json
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\Task09.dll
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\ref\Task09.dll
+D:\Csharp\Week03\Task09\bin\Debug\net5.0\Task09.pdb
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.AssemblyInfoInputs.cache
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.AssemblyInfo.cs
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.csproj.CoreCompileInputs.cache
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.dll
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\ref\Task09.dll
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.pdb
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.genruntimeconfig.cache
+D:\Csharp\Week03\Task09\obj\Debug\net5.0\Task09.csproj.AssemblyReference.cache
