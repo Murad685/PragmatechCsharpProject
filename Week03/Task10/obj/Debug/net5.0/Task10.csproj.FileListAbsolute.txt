@@ -13,3 +13,4 @@ D:\Csharp\Week03\Task10\obj\Debug\net5.0\Task10.dll
 D:\Csharp\Week03\Task10\obj\Debug\net5.0\ref\Task10.dll
 D:\Csharp\Week03\Task10\obj\Debug\net5.0\Task10.pdb
 D:\Csharp\Week03\Task10\obj\Debug\net5.0\Task10.genruntimeconfig.cache
+D:\Csharp\Week03\Task10\obj\Debug\net5.0\Task10.csproj.AssemblyReference.cache
