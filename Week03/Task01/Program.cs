@@ -12,21 +12,17 @@ namespace Task01
              * daxil edeceyimiz eded 0 olana qeder ishlesin ve nevaxt ki,
              * 0 daxil etdik o zaman evvel daxil etdiyimiz ededlerin cemini de ekrana cixarsin.
              */
-            Console.WriteLine("Eded daxil edin:");
+            
             int i;
-            int j=0;
+            int j = 0;
             do
             {
+                
+                Console.WriteLine("Eded daxil edin:");
                 i = Convert.ToInt32(Console.ReadLine());
                 j += i;
-                if (i == 0)
-                {
-                    
-                    break;
-                    
-                }
                 
-            } while (true);
+            } while (i != 0);
             Console.WriteLine($"Daxil etdiyiniz ededlerin cemi {j}");
 
         }
