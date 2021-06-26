@@ -9,26 +9,30 @@ namespace Task09
             /*
              * 2-den 100-e qeder ededler arasinda sade ededleri(1e ve ozune bolunen) tapib ekrana cixardin.
              */
-            int a = 2;
-            int b = 100;
-            while (a <= b)
+            int beginNumber = 2;
+            int endNumber = 100;
+            for (int i = beginNumber; i < endNumber; i++)
             {
-                int c = 0;
-                int j = 1;
-                while (j <= a)
+                if (i is 2)
                 {
-                    if (a % j == 0)
+                    Console.WriteLine(2);
+                }
+                if (i % 2 is not 0)
+                {
+                    int temp = 2;
+                    for (int j = 2; j < i; j++)
                     {
-                        c++;
-                    }
-                    j++;
-                }
 
-                if (c == 2)
-                {
-                    Console.WriteLine(a);
+                        if (i % j is not 0)
+                        {
+                            temp++;
+                            if (temp == i)
+                            {
+                                Console.WriteLine(i);
+                            }
+                        }
+                    }
                 }
-                a++;
             }
         }
     }
