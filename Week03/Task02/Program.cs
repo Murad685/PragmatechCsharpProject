@@ -17,36 +17,42 @@ namespace Task02
              * "Daxil etdiyiniz eded tutulan ededden kicikdir." cixarin console-a.
              * Yox eger tersinedise "Daxil etdiyiniz eded tutulan ededden boyukdur.
              */
-            
+
             Random accidental = new Random();
-            int i = accidental.Next(1,11);
+            int i = accidental.Next(1, 11);
+
             Console.WriteLine("1 ve 10 arasi eded daxil edin:");
-            int j;
-            int f = 1;
+
+            int f = 5;
 
             do
             {
-                j = Convert.ToInt32(Console.ReadLine());
+                int j = Convert.ToInt32(Console.ReadLine());
                 if (i == j)
                 {
                     Console.WriteLine($"Tebrikler siz duz tadpiniz.Proqramin fikrinde tutdugu reqem {i} idi.");
                     break;
                 }
-                else if ( i>j && j<= 10 && j > 0)
+                else if (i > j && j <= 10 && j > 0)
                 {
                     Console.WriteLine("Daxil etdiyiniz eded tutulan ededden kicikdir.");
                 }
-                else if ( i < j && j <= 10 && j>0)
+                else if (i < j && j <= 10 && j > 0)
                 {
                     Console.WriteLine("Daxil etdiyiniz eded tutulan ededden Boyukdur.");
                 }
-                else 
+                else if (f - 1 == 0)
                 {
-                    Console.WriteLine($"Sistemde bele bir eded yoxdur! Yeniden eded daxil edin,{f}-ci gedisdesiniz");
+                    Console.WriteLine($"Sistemde bele bir eded yoxdur! sonuncu gedishiniz bitdi !");
                 }
-                f++;
-            } while (f<6);
-            if (f > 5)
+                else
+                {
+                    
+                    Console.WriteLine($"Sistemde bele bir eded yoxdur! Yeniden eded daxil edin,{f-1} gedishiniz qalir!");
+                }
+                f--;
+            } while (f > 0);
+            if (f == 0)
             {
                 Console.WriteLine("Tessuf Sizin texmin haqqiniz bitmishdir!");
             }
