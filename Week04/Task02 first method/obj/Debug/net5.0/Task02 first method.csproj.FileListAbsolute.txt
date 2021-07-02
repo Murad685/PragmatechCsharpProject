@@ -1,0 +1,16 @@
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\Task02 first method.exe
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\Task02 first method.deps.json
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\Task02 first method.runtimeconfig.json
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\Task02 first method.runtimeconfig.dev.json
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\Task02 first method.dll
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\ref\Task02 first method.dll
+D:\Csharp\Week04\Task02 first method\bin\Debug\net5.0\Task02 first method.pdb
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.csproj.AssemblyReference.cache
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.AssemblyInfoInputs.cache
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.AssemblyInfo.cs
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.csproj.CoreCompileInputs.cache
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.dll
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\ref\Task02 first method.dll
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.pdb
+D:\Csharp\Week04\Task02 first method\obj\Debug\net5.0\Task02 first method.genruntimeconfig.cache
