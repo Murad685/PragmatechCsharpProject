@@ -8,13 +8,19 @@ namespace Task01_second_method
         //Daha sonra hemin arrayin elementlerini tersine duzun.
         static void Main(string[] args)
         {
-            int[] array = new int[5] { 3, 1, 4, 5, 2 };
+            Random rndm = new Random();
+            int[] list = new int[5];
 
-            for (int i = 4; i >-1; i--)
+            for (int i = 0; i <5; i++)
             {
-                Console.WriteLine( array[i]);
+                list[i] = rndm.Next(0, 5);
             }
-            
+
+            for (int i = 4; i > -1; i--)
+            {
+                Console.WriteLine(list[i]);
+            }
+
         }
     }
 }
