@@ -30,7 +30,7 @@ namespace Task03
 
 
             }
-            Console.WriteLine("Umumi say: " +say);
+            Console.WriteLine("Umumi say : " +say);
 
 
         }
