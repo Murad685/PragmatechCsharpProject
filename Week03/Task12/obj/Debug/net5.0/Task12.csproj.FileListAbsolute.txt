@@ -1,0 +1,15 @@
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\Task12.exe
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\Task12.deps.json
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\Task12.runtimeconfig.json
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\Task12.runtimeconfig.dev.json
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\Task12.dll
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\ref\Task12.dll
+D:\Csharp\Week03\Task12\bin\Debug\net5.0\Task12.pdb
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.AssemblyInfoInputs.cache
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.AssemblyInfo.cs
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.csproj.CoreCompileInputs.cache
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.dll
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\ref\Task12.dll
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.pdb
+D:\Csharp\Week03\Task12\obj\Debug\net5.0\Task12.genruntimeconfig.cache
