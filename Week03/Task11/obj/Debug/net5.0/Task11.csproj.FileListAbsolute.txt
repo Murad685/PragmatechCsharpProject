@@ -1,0 +1,16 @@
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\Task11.exe
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\Task11.deps.json
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\Task11.runtimeconfig.json
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\Task11.runtimeconfig.dev.json
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\Task11.dll
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\ref\Task11.dll
+D:\Csharp\Week03\Task11\bin\Debug\net5.0\Task11.pdb
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.csproj.AssemblyReference.cache
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.AssemblyInfoInputs.cache
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.AssemblyInfo.cs
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.csproj.CoreCompileInputs.cache
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.dll
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\ref\Task11.dll
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.pdb
+D:\Csharp\Week03\Task11\obj\Debug\net5.0\Task11.genruntimeconfig.cache
