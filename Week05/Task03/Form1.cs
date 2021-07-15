@@ -40,9 +40,17 @@ namespace Task03
 
         private void btnMix_Click(object sender, EventArgs e)
         {
-            //Random rndm = new Random();
+            Random rndm = new Random();
 
-            //int[] Number = new int[listBox.Items.Count];
+            for (int i = 0; i < listBox.Items.Count; i++)
+            {
+                int randomNumber = rndm.Next(0,listBox.Items.Count);
+
+                Object list2 = listBox.Items[i];
+
+                listBox.Items[i] = listBox.Items[randomNumber];
+                listBox.Items[randomNumber] = list2;
+            }
 
         }
     }
