@@ -1,0 +1,10 @@
+D:\Csharp\Week05\Task03\bin\Debug\Task03.exe.config
+D:\Csharp\Week05\Task03\bin\Debug\Task03.exe
+D:\Csharp\Week05\Task03\bin\Debug\Task03.pdb
+D:\Csharp\Week05\Task03\obj\Debug\Task03.csproj.AssemblyReference.cache
+D:\Csharp\Week05\Task03\obj\Debug\Task03.Form1.resources
+D:\Csharp\Week05\Task03\obj\Debug\Task03.Properties.Resources.resources
+D:\Csharp\Week05\Task03\obj\Debug\Task03.csproj.GenerateResource.cache
+D:\Csharp\Week05\Task03\obj\Debug\Task03.csproj.CoreCompileInputs.cache
+D:\Csharp\Week05\Task03\obj\Debug\Task03.exe
+D:\Csharp\Week05\Task03\obj\Debug\Task03.pdb
