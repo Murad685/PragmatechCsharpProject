@@ -29,6 +29,7 @@ namespace Task02
         {
             string surname = txtBox.Text.Trim().ToUpper();
             listBox1.Items.Add(surname);
+            txtBox.Clear();
         }
 
     }
