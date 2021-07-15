@@ -7,3 +7,4 @@ D:\Csharp\Week05\Task04\obj\Debug\Task04.csproj.GenerateResource.cache
 D:\Csharp\Week05\Task04\obj\Debug\Task04.csproj.CoreCompileInputs.cache
 D:\Csharp\Week05\Task04\obj\Debug\Task04.exe
 D:\Csharp\Week05\Task04\obj\Debug\Task04.pdb
+D:\Csharp\Week05\Task04\obj\Debug\Task04.csproj.AssemblyReference.cache

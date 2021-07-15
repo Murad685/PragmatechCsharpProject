@@ -47,7 +47,7 @@ namespace Task04
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            string searchData = txtBox.Text.Trim().ToLower();
+            string searchData = txtBox.Text.Trim().ToUpper();
             if (listBox1.Items.Contains(searchData))
             {
                 MessageBox.Show("Beli var!");
